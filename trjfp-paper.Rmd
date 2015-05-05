@@ -1,13 +1,17 @@
 ---
-title: 'The Real Junk Food Project: assessing the environmental and nutritional benefits of a global grass-roots movement'
+title: 'The Real Junk Food Project: assessing the environmental and nutritional benefits
+  of a global grass-roots movement'
 author: "Adam Smith and Robin Lovelace"
 date: "April 29, 2015"
 output:
+  html_document:
+    toc: yes
   pdf_document:
     number_sections: yes
     toc: yes
-bibliography: ~/Documents/trjfp.bib
+  word_document: default
 cls: plos.cls
+bibliography: ~/Documents/trjfp.bib
 ---
 
 # Objectives
