@@ -1,0 +1,95 @@
+---
+title: 'The Real Junk Food Project: assessing the environmental and nutritional benefits of a global grass-roots movement'
+author: "Adam Smith and Robin Lovelace"
+date: "April 29, 2015"
+output:
+  pdf_document:
+    number_sections: yes
+    toc: yes
+bibliography: ~/Documents/Transport.bib
+cls: plos.cls
+---
+
+# Objectives
+
+- To provide an authoritative resource for people wanting to know more about TRJFP,
+how it works and what it involves
+- To generate 'high level' academic and policy interest in the ideas underlying
+the practicalities of TRJFP
+- Quantify some of the benefits (e.g. energy) of TRJFP
+- To generate some visualisations of data collected by TRJFP
+- To explain to people how to set up new TRJFP cafes, the logistics involved and
+challenges to overcome
+- An anchor point to link to many of the resources that led to TRJFP
+
+# Introduction 
+
+The Real Junk Food Project (TRJFP) is...
+
+TRJFP has provoked a huge volume of commentary, debate, adulation and criticism,
+seemingling in equal measure. Despite the large media footprint of the project,
+few have taken the time to quantify the 'real' savings that the movement has
+produced. By 'real', we refer to changes that can be physically measured. That
+is not to discount the importance of the project's ability to change perceptions.
+Indeed, encouraging re-evaluation of the food and wider economic systems of
+those who interact with TRJFP may be its most important impact. However, these
+are impacts that cannot easily be measured.
+
+The focus of this paper is on the subset of changes that TRJFP has brought
+about that *can* be measured. Again, this is not to belittle to the myriad
+intangible changes that have occurred as a result of the ideas inception and
+rapid deployment. On the contrary, it is to help put the wider impacts of
+TRJFP in perspective. For every measurable impact, for every kilogram of food
+not thrown away, it is conceivable that there are a dozen changes in perception
+of those directly and indirectly involved in the idea's implementation.
+By focussing on what can be measured the paper aims to open the pathway
+towards deeper analysis of TRJFP's wider societal impact. In order to focus on
+quantifiable impacts, we must begin with the data.
+
+# Data
+
+TRJFP has been fortunate in that data collection was identified as a strategic
+priority at its inception...
+
+# Results 
+
+## Global distribution and rate of spread
+
+If TRJFP concept is to have global impact, it must be able to expand rapidly
+and outstrip the growth-rates of centralised food business models
+[e.g. @LondonEconomics2011].^[Although TRJFP
+has 'gone viral'
+in terms of dissemination ideas and branding this not lead to the
+assumption that it is already competitive with the dominant centralised
+business model.
+It is sobering to remember that TRJFP started from a franchise of
+one store in 2014 (notwithstanding other FAYF food initiatives) whereas market
+leaders have a head-start of 1000s of outlets and still
+continues to grow. McDonalds, for example,
+is the largest restaurant franchise in Europe with > 7000 outlets
+(> 18,000 worldwide) yet saw rapid growth in sales
+(i.e. turnover) and capital expenditure (i.e. new stores) of 17%
+between 2007 and 2010 in Europe, against a backdrop of recession.
+]
+TRJFP-affiliated restaurants have expanded rapidly (Fig. x).
+Although growth has been concentrated in Europe and the US, the
+brand has received exposure worldwide. The geographical spread of
+TRJFP outlets is illustrated in Figure x.
+
+## Global energy savings from TRJFP
+
+## Waste avoided
+
+## Increased access to nutritious food
+
+## Case Study: Armley Junk-tion cafe
+
+# Discussion
+
+- Is it radical to prevent 
+- It's not radical it's common sense
+- Legal aspects
+
+# Conclusion
+
+# References
