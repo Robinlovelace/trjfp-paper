@@ -6,7 +6,7 @@ output:
   pdf_document:
     number_sections: yes
     toc: yes
-bibliography: ~/Documents/Transport.bib
+bibliography: ~/Documents/trjfp.bib
 cls: plos.cls
 ---
 
@@ -24,7 +24,52 @@ challenges to overcome
 
 # Introduction 
 
-The Real Junk Food Project (TRJFP) is...
+The Real Junk Food Project (TRJFP) is a global movement 
+which aims to highlight the exploitation of people and the environment within
+the food industry. TRJFP is a simple concept and practical campaign to reduce
+food waste at all levels led from the bottom-up in a 'grass-roots' fashion.
+TRJFP trades from a number of cafes, restaurants and other outlets
+(some of which are mobile) without restrictions on where they. 
+There are two defining features of every outlet associated with TRJFP,
+based on the :
+
+1. All foo
+
+
+These twin criteria were selected based on fundanmental flaws within the 
+global food system. On one hand, the reason that people go hungry is not
+due to insufficient production of food [@reference]. The problem is access
+[@boom] and distribution [@boom; @boom].
+On the other, vast quantities of food are wasted [@Stuart2009]. Food waste
+is ubiquitous at every stage of the supply chain, including: excess fertiliser and
+pesticide use on the fields [@boom]; unharvested crops due to strict criteria
+for appearance from supermarkets [@boom]
+and short-term fluctuations in food commodity market [@boom], leading to
+food left rotting in field [@boom]; accidental damages, widespread perishing
+and ; and prolific household food waste driven by misleading marketing
+campaigns such as 'buy on get one free' (BOGOF) offers and innacurate
+expiration dates [@]
+
+As highlighted in the literature referenced above, there has been much
+research into the *problems* with the current market-driven food system.
+However, there has been a relative dearth of research into potential
+*solutions*. This paper is unique in that it is based on real-world experience
+rather than speculative 'techno-fixes' [e.g. @ridiculous-solution-a],
+wishful thinking about state-led regulation of f
+or quasi-utopian ideologies. 
+
+TRJFP is a concept that empowers people from many walks of life to take action
+to address entrenched issues with the food system, *in their local areas*.
+
+Despite the absolute abundance of food and other raw materials for human
+wellbeing, a sense of scarcity is produced by the global capitalist system
+[@Eisenstein2011]. 
+
+Critical to all TRJFP outlets is Pay As You Feel (PAYF). No customer is obliged
+to pay for food. Everyone has access. However, patrons are encouraged to donate
+financially or otherwise (e.g. by volunteering time or skills). This two-way
+exchange of value is encourages people to understand the value of the food
+services on offer both to themselves and wider society.
 
 TRJFP has provoked a huge volume of commentary, debate, adulation and criticism,
 seemingling in equal measure. Despite the large media footprint of the project,
