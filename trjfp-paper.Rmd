@@ -54,16 +54,13 @@ and ; and prolific household food waste driven by misleading marketing
 campaigns such as 'buy on get one free' (BOGOF) offers and innacurate
 expiration dates [@]
 
-As highlighted in the literature referenced above, there has been much
+As outlined above, there has been much
 research into the *problems* with the current market-driven food system.
 However, there has been a relative dearth of research into potential
 *solutions*. This paper is unique in that it is based on real-world experience
 rather than speculative 'techno-fixes' [e.g. @ridiculous-solution-a],
 wishful thinking about state-led regulation of f
 or quasi-utopian ideologies. 
-
-TRJFP is a concept that empowers people from many walks of life to take action
-to address entrenched issues with the food system, *in their local areas*.
 
 Despite the absolute abundance of food and other raw materials for human
 wellbeing, a sense of scarcity is produced by the global capitalist system
@@ -85,7 +82,7 @@ those who interact with TRJFP may be its most important impact. However, these
 are impacts that cannot easily be measured.
 
 The focus of this paper is on the subset of changes that TRJFP has brought
-about that *can* be measured. Again, this is not to belittle to the myriad
+about that *can* be measured. Again, this is not to belittle the myriad
 intangible changes that have occurred as a result of the ideas inception and
 rapid deployment. On the contrary, it is to help put the wider impacts of
 TRJFP in perspective. For every measurable impact, for every kilogram of food
@@ -94,6 +91,46 @@ of those directly and indirectly involved in the idea's implementation.
 By focussing on what can be measured the paper aims to open the pathway
 towards deeper analysis of TRJFP's wider societal impact. In order to focus on
 quantifiable impacts, we must begin with the data.
+
+TRJFP is a concept that empowers people from many walks of life to take action
+to address entrenched issues with the food system, *in their local areas*.
+
+# The growth of an idea
+
+The first independent PAYF cafe operating under TRJFP banner opened in Armley, Leeds on December 16th 
+2013.^[The first
+mention of "The Real Junk Food Project"
+in the media was in Good Food magazine, about a PAYF outlet set-up in
+Melbourne in early 2013: http://www.goodfood.com.au/good-food/food-news/from-the-rubbish-bin-to-the-restaurant-table-20130527-2n73n.html . It was was the experience of setting-up and running
+this operating that led the author (AS) to imagine how the idea could go
+global. Inspired by the response from this experience in Australia,
+first independent cafe was set-up shortly after AS returned home to his
+home-town in Leeds.]
+For the first 4 months this cafe
+opened for 2 hours per day, 2 days per week. Attention from the
+international media triggered rapid growth in number of volunteers, 
+customers and other visitors. This allowed the cafe to shift from being a
+small operation to opening 7 days per week full-time, within the space of a
+couple of months.
+
+The second cafe was a local community centre.
+After a 2 month trial, this project was closed due to internal management issues.
+Following continued media interest, the Armley outlet was visited by
+individuals from Manchester, Wigan and a number of other cities in the UK
+(Fig. x???). There were many enquiries about TRJRP's business model from people
+wanting to set-up similar cafes. Enthusistic responses to the cafe
+from the general public, who visited the Armley cafe in increasing numbers
+throughout 2013, also contributed to increased media attention.
+
+Of the cafes to open outside Leeds, the largest in terms of output
+has been the Bristol Skipchen, based in Stokes Croft, Bristol.
+Co-directors of the Leeds project, Sam Joseph and Catie Jarman,
+moved to Bristol to open the venture as part of a campaign against supermarket
+waste in ???when???. Within days of opening, Bristol Skipchen received
+mainstream media attention at the national and international level.
+This further boosted interest. From the beginning of 2014 until May 2015,
+more than 40 cafes directly or indirectly linked (via correspondence with
+AS) opened across the UK.
 
 # Data
 
