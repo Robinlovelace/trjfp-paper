@@ -4,10 +4,10 @@ title: 'The Real Junk Food Project: assessing the environmental and nutritional 
 author: "Adam Smith and Robin Lovelace"
 date: "April 29, 2015"
 output:
-  html_document:
-    toc: yes
   pdf_document:
     number_sections: yes
+    toc: yes
+  html_document:
     toc: yes
   word_document: default
 cls: plos.cls
@@ -22,49 +22,100 @@ how it works and what it involves
 the practicalities of TRJFP
 - Quantify some of the benefits (e.g. energy) of TRJFP
 - To generate some visualisations of data collected by TRJFP
-- To explain to people how to set up new TRJFP cafes, the logistics involved and
+- To explain to people how to set up new TRJFP cafés, the logistics involved and
 challenges to overcome
 - An anchor point to link to many of the resources that led to TRJFP
 
 # Introduction 
 
+## What is The Real Junk Food Project?
+
 The Real Junk Food Project (TRJFP) is a global movement 
-which aims to highlight the exploitation of people and the environment within
+aimed at highlighting and reducing
+the costs to people and the environment of
 the food industry. TRJFP is a simple concept and practical campaign to reduce
-food waste at all levels led from the bottom-up in a 'grass-roots' fashion.
-TRJFP trades from a number of cafes, restaurants and other outlets
+food waste at all levels in the supply chain.
+It is 'grass-roots' in that there is no centralised headquarters or command
+structure, in direct contrast to the majority of multi-national food operations.
+TRJFP trades from dozens cafés, restaurants and other outlets
 (some of which are mobile) without restrictions on where they. 
-There are two defining features of every outlet associated with TRJFP,
-based on the :
+There are two defining features of every outlet associated with TRJFP:
 
-1. All foo
+1. All food on offer at TRJFP outlets must have been 'intercepted' from the
+waste stream. Thus every TRJFP reduces 
+the amount of edible food that terminates in landfill.
 
+2. All TRJFP outlets provide food to customers under the principle of
+Pay As You Feel (PAYF). No hungry person will be turned away from TRJFP outlets
+due to lack of money to pay for food. There is no formal pricing structure.
+However, customers are encouraged to pay what they feel the food was worth or
+to contribute in other ways, e.g. by assisting in the kitchen.
 
-These twin criteria were selected based on fundanmental flaws within the 
-global food system. On one hand, the reason that people go hungry is not
-due to insufficient production of food [@reference]. The problem is access
-[@boom] and distribution [@boom; @boom].
-On the other, vast quantities of food are wasted [@Stuart2009]. Food waste
-is ubiquitous at every stage of the supply chain, including: excess fertiliser and
-pesticide use on the fields [@boom]; unharvested crops due to strict criteria
-for appearance from supermarkets [@boom]
-and short-term fluctuations in food commodity market [@boom], leading to
-food left rotting in field [@boom]; accidental damages, widespread perishing
-and ; and prolific household food waste driven by misleading marketing
-campaigns such as 'buy on get one free' (BOGOF) offers and innacurate
-expiration dates [@]
+A slogan of TRJFP that encapsulates these dual criteria is
+"feed belies not bins". Thus TRJFP highlights not only the wastage inherent
+to modern food systems but also the social impacts of poor food distribution.
+TRJFP tackles both sides of food crisis: wasteful production and inequitable
+distribution and consumption across society.
+
+## Motivations
+
+The growth of TRJFP is organic and ad-hock, driven by motivated people
+who decide to set-up their own PAYF outlets where they live. However, TRJFP
+business model was carefully designed to maximise its chances of success and
+ability to have positive social and environmental benefits in a capitalist
+economy.
+
+The twin criteria for TRJFP outlets outlined above were
+selected to tackle fundamental flaws of the current model.
+On one hand, the reason that people go hungry is not
+due to insufficient production of food [@Evans1998].
+The problem is access
+[@Brinkman2010] and distribution [@Muthayya2013].
+On the other, vast quantities of food are wasted [@Stuart2009].
+
+Food waste is ubiquitous at every stage of the supply chain.
+There is waste from excess use of chemicals
+on the fields [@Foley2005]; unharvested
+crops due to strict supermarket criteria appearance [@White2011];
+instability and hoarding due to
+short-term fluctuations in food commodity market [@Boussard2006];
+widespread accidental damage and perishing leading to waste during transit;
+and prolific household food waste [@Household2012].
+An excellent overview of the extent of wastage throughout this food supply chain,
+"from farm to fork", highlights the problem from a North American perspective
+[@Gunders2012]. With globalisation of food systems, these issues
+are likely to become increasingly international in scope, as more countries
+adopt western-style agriculture and food consumption habits.
+
+The latter source of food waste has received most academic attention,
+leading to some insight into its causes. Domestic food waste
+is driven by misleading marketing
+campaigns such as 'buy on get one free' (BOGOF) offers and inaccurate
+expiration dates [@]. The ills of the food system are therefore intimately
+entwined with the wider economic system that governs much of
+human life, namely global capitalism [@Albritton2009].
+Thus *solutions* must tackle not only narrowly-defined aspects of the food
+crisis in isolation, but face up to fundamental shortcomings of industrial
+food systems. This is the wider motivation for TRJFP.
 
 As outlined above, there has been much
 research into the *problems* with the current market-driven food system.
 However, there has been a relative dearth of research into potential
-*solutions*. This paper is unique in that it is based on real-world experience
-rather than speculative 'techno-fixes' [e.g. @ridiculous-solution-a],
-wishful thinking about state-led regulation of f
-or quasi-utopian ideologies. 
+*solutions*. This paper is unique in that it is based on real-world experience.
 
-Despite the absolute abundance of food and other raw materials for human
-wellbeing, a sense of scarcity is produced by the global capitalist system
-[@Eisenstein2011]. 
+```{r, echo=FALSE}
+# rather than speculative 'techno-fixes' [e.g. @ridiculous-solution-a],
+# wishful thinking about state-led regulation of f
+# or quasi-utopian ideologies. 
+# 
+# Despite the absolute abundance of food and other raw materials for human
+# well-being, a sense of scarcity is produced by the global capitalist system
+# [@Eisenstein2011].
+```
+
+
+
+ 
 
 Critical to all TRJFP outlets is Pay As You Feel (PAYF). No customer is obliged
 to pay for food. Everyone has access. However, patrons are encouraged to donate
@@ -72,8 +123,8 @@ financially or otherwise (e.g. by volunteering time or skills). This two-way
 exchange of value is encourages people to understand the value of the food
 services on offer both to themselves and wider society.
 
-TRJFP has provoked a huge volume of commentary, debate, adulation and criticism,
-seemingling in equal measure. Despite the large media footprint of the project,
+TRJFP has been the subject of much commentary.
+Despite the large media footprint of the project,
 few have taken the time to quantify the 'real' savings that the movement has
 produced. By 'real', we refer to changes that can be physically measured. That
 is not to discount the importance of the project's ability to change perceptions.
@@ -97,39 +148,39 @@ to address entrenched issues with the food system, *in their local areas*.
 
 # The growth of an idea
 
-The first independent PAYF cafe operating under TRJFP banner opened in Armley, Leeds on December 16th 
+The first independent PAYF café operating under TRJFP banner opened in Armley, Leeds on December 16th 
 2013.^[The first
 mention of "The Real Junk Food Project"
 in the media was in Good Food magazine, about a PAYF outlet set-up in
 Melbourne in early 2013: http://www.goodfood.com.au/good-food/food-news/from-the-rubbish-bin-to-the-restaurant-table-20130527-2n73n.html . It was was the experience of setting-up and running
 this operating that led the author (AS) to imagine how the idea could go
 global. Inspired by the response from this experience in Australia,
-first independent cafe was set-up shortly after AS returned home to his
+first independent café was set-up shortly after AS returned home to his
 home-town in Leeds.]
-For the first 4 months this cafe
+For the first 4 months this café
 opened for 2 hours per day, 2 days per week. Attention from the
 international media triggered rapid growth in number of volunteers, 
-customers and other visitors. This allowed the cafe to shift from being a
+customers and other visitors. This allowed the café to shift from being a
 small operation to opening 7 days per week full-time, within the space of a
 couple of months.
 
-The second cafe was a local community centre.
+The second café was a local community centre.
 After a 2 month trial, this project was closed due to internal management issues.
 Following continued media interest, the Armley outlet was visited by
 individuals from Manchester, Wigan and a number of other cities in the UK
 (Fig. x???). There were many enquiries about TRJRP's business model from people
-wanting to set-up similar cafes. Enthusistic responses to the cafe
-from the general public, who visited the Armley cafe in increasing numbers
+wanting to set-up similar cafés. Enthusiastic responses to the café
+from the general public, who visited the Armley café in increasing numbers
 throughout 2013, also contributed to increased media attention.
 
-Of the cafes to open outside Leeds, the largest in terms of output
+Of the cafés to open outside Leeds, the largest in terms of output
 has been the Bristol Skipchen, based in Stokes Croft, Bristol.
 Co-directors of the Leeds project, Sam Joseph and Catie Jarman,
 moved to Bristol to open the venture as part of a campaign against supermarket
 waste in ???when???. Within days of opening, Bristol Skipchen received
 mainstream media attention at the national and international level.
 This further boosted interest. From the beginning of 2014 until May 2015,
-more than 40 cafes directly or indirectly linked (via correspondence with
+more than 40 cafés directly or indirectly linked (via correspondence with
 AS) opened across the UK.
 
 # Data
@@ -151,7 +202,7 @@ business model.
 It is sobering to remember that TRJFP started from a franchise of
 one store in 2014 (notwithstanding other FAYF food initiatives) whereas market
 leaders have a head-start of 1000s of outlets and still
-continues to grow. McDonalds, for example,
+continues to grow. McDonald's, for example,
 is the largest restaurant franchise in Europe with > 7000 outlets
 (> 18,000 worldwide) yet saw rapid growth in sales
 (i.e. turnover) and capital expenditure (i.e. new stores) of 17%
@@ -168,7 +219,7 @@ TRJFP outlets is illustrated in Figure x.
 
 ## Increased access to nutritious food
 
-## Case Study: Armley Junk-tion cafe
+## Case Study: Armley Junk-tion café
 
 # Discussion
 
@@ -177,5 +228,51 @@ TRJFP outlets is illustrated in Figure x.
 - Legal aspects
 
 # Conclusion
+
+Global food systems are highly dynamic, complex and contested. Food is so
+embedded in society that no 'golden bullet' solution will be ever be
+able to succeed in isolation from wider social change.
+The conflicts that arise surrounding food politics have been described
+as 'food wars': long-term battles that must be fought on many levels
+to overcome vested interests which prioritise short-term profitability
+over long-term health and sustainability [@Lang2004]. Specifically,
+the solutions "require better processes for making food policies and reform
+of the institutions of food governance" [@Lang2004 p. 113].
+The solutions are clearly multifacetted [@Godfray2010].
+
+TRJFP and related grass-roots approaches can only provide part of the answer
+to the question of how to create a sustainable food system beneficial
+to everyone. This paper has demonstrated that TRJFP approach has, however,
+had a major positive impact, both in terms of avoidance of food waste and
+in terms of providing food to thousands of people, including some of the
+most marginalised in society. TRJFP differs radically from the mainstream,
+top-down solutions typically proposed in the academic literature by advocating
+direct action 'right here right now', rather than campaigning at a distance.
+Judging from the public response to TRJFP-affiliated PAYF cafés and the rapid
+international growth of outlets, there is appetite for this new approach.
+
+The benefits outlined in this article are large in absolute terms but
+pale in comparison to the social and environmental impacts of centralised
+food operations. This is not to diminish the TRJFP, the impacts of which
+extend far beyond the relatively narrow quantifiable benefits outlined in
+this paper. TRJFP has had a vast influence on the way that many people perceive
+food, steering the debate about how we feed ourselves towards contradictions in
+the system that are generally hidden from view. Yet the results are decisive:
+TRJFP has prevented thousands of tonnes of food being needlessly wasted, in
+the process providing nutritional value to the lives of thousands of people.
+
+The fact that this has been possible is itself astonishing and raises the
+following questions: How has such continuous wastage and imbalance of food
+provision become so structural to the system that a parallel food system is
+required to tackle the issue? Why have these issues not been tackled by food
+policies, of the type advocated by [@Lang2004]? TRJFP cannot answer these
+questions, which relate to wider questions about how to ensure equity and
+health within a capitalist system [@Jackson2009a]
+and whether the system in its current
+form can and should be sustained at all [@Ehrlich2013; @Martinez-Alier2010].
+What TRJFP can do is empower people to take action to participate in
+the food system. The ride-ranging benefits demonstrated
+in this paper are only the tip of the iceburg in terms of what is possible
+for bottom-up food movements in general and for TRJFP in particular. 
 
 # References
