@@ -4,12 +4,12 @@ title: 'The Real Junk Food Project: assessing the environmental and nutritional 
 author: "Adam Smith and Robin Lovelace"
 date: "April 29, 2015"
 output:
+  word_document: default
   pdf_document:
     number_sections: yes
     toc: yes
   html_document:
     toc: yes
-  word_document: default
 cls: plos.cls
 bibliography: ~/Documents/trjfp.bib
 ---
@@ -185,8 +185,34 @@ AS) opened across the UK.
 
 # Data
 
-TRJFP has been fortunate in that data collection was identified as a strategic
-priority at its inception...
+Data collection was identified as a strategic priority at the
+inception of TRJFP. Staff and customers were surprised at the amount
+of food that could be taken from the waste stream and converted into
+nutritious meals, leading to high demand for further information about
+the intercepted food.
+Recording of food intercepted became a fundamental practice carried out
+by all PAYF cafes in TRJFPs network. At the Armley Junk-tion every gram of food
+intercepted is weighed and recorded and other cafes in the network have
+(albeit to varying degrees) followed
+suit. The information from all outlets is
+collated by TRJFP Charitable Foundation, an umbrella organisation,
+to be analyzed centrally. Along with this, every person fed, every meal made
+and all financial donations received during service hours is recorded.
+This information is valuable, containing insight into the fundamental changes
+required in the food industry. The breakdown of food intercepted by TRJFP
+could provide inform strategies to reduce food waste in a more systematic
+mannery, both in the UK and globally.
+
+The headline figures from this data collection exercise are impressive.
+In it’s first year of service, from December 2014 until December 2014,
+the Armley Junk-tion, the first café in TRJFP network,
+fed over 10,000 people with more than 23 tons of food intercepted
+the waste stream. It is revealing that although the vast majority of
+food eaten had officially expired, not a single instance of a negative
+reaction to the food provided has been reported.
+Thus data from TRJFP suggests that it is safe to eat expired food,
+and that food wastage would be greatly reduced
+by radically altering food expiration dates and policies.
 
 # Results 
 
