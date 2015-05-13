@@ -4,12 +4,12 @@ title: 'The Real Junk Food Project: assessing the environmental and nutritional 
 author: "Adam Smith and Robin Lovelace"
 date: "April 29, 2015"
 output:
-  word_document: default
   pdf_document:
     number_sections: yes
     toc: yes
   html_document:
     toc: yes
+  word_document: default
 cls: plos.cls
 bibliography: ~/Documents/trjfp.bib
 ---
@@ -33,9 +33,11 @@ challenges to overcome
 The Real Junk Food Project (TRJFP) is a global movement 
 aimed at highlighting and reducing
 the costs to people and the environment of
-the food industry. TRJFP is a simple concept and practical campaign to reduce
-food waste at all levels in the supply chain.
-It is 'grass-roots' in that there is no centralised headquarters or command
+the food industry. Conceptually, TRJFP is a simple and practical campaign to reduce food waste at all levels in the supply chain.
+As of March 2015 TRJFP is also a legal entity, a Charitable Foundation
+based in Leeds, UK but with operations worldwide.
+
+TRJFP is also 'grass-roots' in that there is no centralised control
 structure, in direct contrast to the majority of multi-national food operations.
 TRJFP trades from dozens cafés, restaurants and other outlets
 (some of which are mobile) without restrictions on where they. 
@@ -56,6 +58,8 @@ A slogan of TRJFP that encapsulates these dual criteria is
 to modern food systems but also the social impacts of poor food distribution.
 TRJFP tackles both sides of food crisis: wasteful production and inequitable
 distribution and consumption across society.
+
+The relationship between TRJFP 
 
 ## Motivations
 
@@ -214,9 +218,17 @@ Thus data from TRJFP suggests that it is safe to eat expired food,
 and that food wastage would be greatly reduced
 by radically altering food expiration dates and policies.
 
+## Food interception 
+
+## Food provision to customers
+
+## Financial data
+
+
+
 # Results 
 
-## Global distribution and rate of spread
+## Global distribution and rate of growth
 
 If TRJFP concept is to have global impact, it must be able to expand rapidly
 and outstrip the growth-rates of centralised food business models
@@ -239,13 +251,63 @@ Although growth has been concentrated in Europe and the US, the
 brand has received exposure worldwide. The geographical spread of
 TRJFP outlets is illustrated in Figure x.
 
-## Global energy savings from TRJFP
-
 ## Waste avoided
+
+Since the inception of TRJFP in 16^th^ December 2013,
+statistics collated from all affiliated outlets
+show that almost 100 tonnes of food have been intercepted from
+the waste stream (67,974 kg to 16^th^ March 2015).
+
+...
 
 ## Increased access to nutritious food
 
+Between 16^th^ December 2013 and 16^th^ March 2015, 37,834 separate visits
+have been made to TRJFP outlets. 42,180 meals have been served over the same
+period. Based on this data combined with the waste avoided
+
+```{r, echo=FALSE}
+# 67974 / 42180
+```
+
+## Finances and labour
+
+From a business perspective, TRJFP is not a charity in the common sense of the
+word. It does not rely on philanthropists making
+donations without any expection of personal benefit. Instead, customers are
+asked to pay what they feel (PAYF) the food and associated
+service is worth. 
+This business model has resulted in the donation of £57,097 during the 14
+months to 16^th^ March 2015. This equates to an average donation of £1.50
+per visit, far below the average price of a meal in the UK of around £5.
+
+```{r, include=FALSE}
+57097 / 37834
+```
+
+This income is spent on the continuation of TRJFP and is spent on an
+outlet-by-outlet bases. Running costs in a typical PAYF cafe are the same as
+running costs in a conventional cafe, involving st
+
+
+
+
+To illustrate the economics underlying TRJFP even from the perspective
+of food wholesalers, consider the case of X, a Fruit and Vegetable wholesale
+provider based in West Yorkshire.^[We
+do not name the wholesalers due to the commercial sensitivity of the issue.]
+X was spending £80,000 per month on disposal of waste food, which consisted
+primarily in transport logistics and the UK's Landfill Tax.[See https://www.gov.uk/business-tax/landfill-tax for further details.]
+Having heard about TRJFP, X started delivering food deemed
+no longer fit for sale but which was still fit for human consumption
+to a TRJFP outlet. TRJFP members have also started collecting food from X.
+Since this change in business practices, X has reported a 40% saving in
+costs associated with food disposal, bringing them down to less than
+£50,000 per month.
+
 ## Case Study: Armley Junk-tion café
+
+## Energy savings 
 
 # Discussion
 
