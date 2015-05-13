@@ -170,7 +170,7 @@ Following continued media interest, the Armley outlet was visited by
 individuals from Manchester, Wigan and a number of other cities in the UK
 (Fig. x???). There were many enquiries about TRJRP's business model from people
 wanting to set-up similar cafés. Enthusiastic responses to the café
-from the general public, who visited the Armley café in increasing numbers
+from the public, who visited the Armley café in increasing numbers
 throughout 2013, also contributed to increased media attention.
 
 Of the cafés to open outside Leeds, the largest in terms of output
@@ -191,20 +191,20 @@ of food that could be taken from the waste stream and converted into
 nutritious meals, leading to high demand for further information about
 the intercepted food.
 Recording of food intercepted became a fundamental practice carried out
-by all PAYF cafes in TRJFPs network. At the Armley Junk-tion every gram of food
-intercepted is weighed and recorded and other cafes in the network have
+by all PAYF cafés in TRJFPs network. At the Armley Junk-tion every gram of food
+intercepted is weighed and recorded and other cafés in the network have
 (albeit to varying degrees) followed
 suit. The information from all outlets is
 collated by TRJFP Charitable Foundation, an umbrella organisation,
-to be analyzed centrally. Along with this, every person fed, every meal made
+to be analysed centrally. Along with this, every person fed, every meal made
 and all financial donations received during service hours is recorded.
 This information is valuable, containing insight into the fundamental changes
 required in the food industry. The breakdown of food intercepted by TRJFP
 could provide inform strategies to reduce food waste in a more systematic
-mannery, both in the UK and globally.
+manner, both in the UK and globally.
 
 The headline figures from this data collection exercise are impressive.
-In it’s first year of service, from December 2014 until December 2014,
+In its first year of service, from December 2014 until December 2014,
 the Armley Junk-tion, the first café in TRJFP network,
 fed over 10,000 people with more than 23 tons of food intercepted
 the waste stream. It is revealing that although the vast majority of
@@ -264,7 +264,7 @@ to overcome vested interests which prioritise short-term profitability
 over long-term health and sustainability [@Lang2004]. Specifically,
 the solutions "require better processes for making food policies and reform
 of the institutions of food governance" [@Lang2004 p. 113].
-The solutions are clearly multifacetted [@Godfray2010].
+The solutions are clearly multifaceted [@Godfray2010].
 
 TRJFP and related grass-roots approaches can only provide part of the answer
 to the question of how to create a sustainable food system beneficial
@@ -288,17 +288,24 @@ TRJFP has prevented thousands of tonnes of food being needlessly wasted, in
 the process providing nutritional value to the lives of thousands of people.
 
 The fact that this has been possible is itself astonishing and raises the
-following questions: How has such continuous wastage and imbalance of food
-provision become so structural to the system that a parallel food system is
-required to tackle the issue? Why have these issues not been tackled by food
-policies, of the type advocated by [@Lang2004]? TRJFP cannot answer these
+following questions: How has such continuous wastage of food
+become structural to the system? Why have these issues not been
+effectively tackled by food
+policies, of the type advocated by [@Lang2004]? TRJFP cannot answer
+all these
 questions, which relate to wider questions about how to ensure equity and
-health within a capitalist system [@Jackson2009a]
-and whether the system in its current
-form can and should be sustained at all [@Ehrlich2013; @Martinez-Alier2010].
-What TRJFP can do is empower people to take action to participate in
+health within a capitalist system [@Jackson2009a].
+Indeed, some question the economy's sustainability overall
+[@Ehrlich2013; @Martinez-Alier2010].
+What TRJFP can do, however, is empower people to take participative
+and community-led action to improve
 the food system. The ride-ranging benefits demonstrated
-in this paper are only the tip of the iceburg in terms of what is possible
-for bottom-up food movements in general and for TRJFP in particular. 
+in this paper are only the tip of the iceberg in terms of what is possible
+for bottom-up food movements such as TRJFP. However, the problems in the
+food system that TRJFP highlights and addresses are entrenched and 'systemic'
+[@Beddoe2009]. This means that more structural changes,
+of type set-out by [@Lang2004],  are required to reduce
+food wastage, maldistribution and poor nutrition to levels that are
+compatible with long-term economic, social and environmental sustainability.
 
 # References
