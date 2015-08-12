@@ -1,7 +1,7 @@
 ---
 title: 'The Real Junk Food Project: assessing the environmental and nutritional benefits
   of a global grass-roots movement'
-author: "Adam Smith and Robin Lovelace"
+author: "Robin Lovelace and Adam Smith"
 date: "April 29, 2015"
 output:
   pdf_document:
@@ -13,6 +13,12 @@ output:
 cls: plos.cls
 bibliography: ~/Documents/trjfp.bib
 ---
+
+```{r, echo=FALSE}
+# Todo
+# 
+```
+
 
 # Objectives
 
@@ -34,8 +40,15 @@ The Real Junk Food Project (TRJFP) is a global movement
 aimed at highlighting and reducing
 the costs to people and the environment of
 the food industry. Conceptually, TRJFP is a simple and practical campaign to reduce food waste at all levels in the supply chain.
-As of March 2015 TRJFP is also a legal entity, a Charitable Foundation
-based in Leeds, UK but with operations worldwide.
+As of ... 2015 TRJFP is also a legal entity, a Charitable Foundation
+based in Leeds, UK but with operations worldwide (Figure 1).
+The highest density of TRJFP cafes and enquiries surrounds its starting point
+in West Yorkshire (Figure 2). T
+
+!!! Figure of cafes worldwide
+
+!!! Figure of UK cafes
+
 
 TRJFP is also 'grass-roots' in that there is no centralised control
 structure, in direct contrast to the majority of multi-national food operations.
@@ -117,10 +130,6 @@ However, there has been a relative dearth of research into potential
 # [@Eisenstein2011].
 ```
 
-
-
- 
-
 Critical to all TRJFP outlets is Pay As You Feel (PAYF). No customer is obliged
 to pay for food. Everyone has access. However, patrons are encouraged to donate
 financially or otherwise (e.g. by volunteering time or skills). This two-way
@@ -188,6 +197,11 @@ more than 40 cafés directly or indirectly linked (via correspondence with
 AS) opened across the UK.
 
 # Data
+
+```{r, echo=FALSE}
+# TODO: write about Birmingham data
+```
+
 
 Data collection was identified as a strategic priority at the
 inception of TRJFP. Staff and customers were surprised at the amount
