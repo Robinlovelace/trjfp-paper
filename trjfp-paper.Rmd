@@ -91,15 +91,18 @@ The problem is access
 On the other, vast quantities of food are wasted [@Stuart2009].
 
 Food waste is ubiquitous at every stage of the supply chain.
-Globally around a third of edible food is wasted
-(1.3 billion tons per year) [@FAO2013].
+The United Nations estimates that
+1.3 billion tons is wasted per year, a third of all food [@FAO2013].
+The true value could be much higher due to undereporting [@Foresight2011].
 This is caused by a wide range of factors: excess use of chemicals
 on the fields [@Foley2005]; order cancellations and unharvested
 crops due to strict supermarket criteria appearance [@White2011;@Stuart2009];
 hoarding and speculation due to
 short-term fluctuations in food commodity markets [@Boussard2006];
 widespread accidental damage and perishing leading to waste during transit;
+inaccurate "sell-by dates" and labelling laws causing premature disposal by supermarkets [@Lipinski2013]
 and prolific household food waste [@Household2012].
+
 An excellent overview of the extent of wastage throughout this food supply chain,
 "from farm to fork", highlights the problem from a North American perspective
 [@Gunders2012]. With globalisation of food systems, these issues
@@ -192,7 +195,7 @@ Of the cafés to open outside Leeds, the largest in terms of output
 has been the Bristol Skipchen, based in Stokes Croft, Bristol.
 Co-directors of the Leeds project, Sam Joseph and Catie Jarman,
 moved to Bristol to open the venture as part of a campaign against supermarket
-waste in ???when???. Within days of opening, Bristol Skipchen received
+waste in 2014. Within days of opening, Bristol Skipchen received
 mainstream media attention at the national and international level.
 This further boosted interest. From the beginning of 2014 until May 2015,
 more than 40 cafés directly or indirectly linked (via correspondence with
@@ -230,9 +233,9 @@ fed over 10,000 people with more than 23 tons of food intercepted
 the waste stream. It is revealing that although the vast majority of
 food eaten had officially expired, not a single instance of a negative
 reaction to the food provided has been reported.
-Thus data from TRJFP suggests that it is safe to eat expired food,
-and that food wastage would be greatly reduced
-by radically altering food expiration dates and policies.
+Thus data from TRJFP suggests that it is safe to eat expired food
+and that food wastage could be greatly reduced
+by changing laws related to food expiration labels.
 
 ## Food interception 
 
@@ -359,7 +362,7 @@ The benefits outlined in this article are large in absolute terms but
 pale in comparison to the social and environmental impacts of centralised
 food operations. This is not to diminish the TRJFP, the impacts of which
 extend far beyond the relatively narrow quantifiable benefits outlined in
-this paper. TRJFP has had a vast influence on the way that many people perceive
+this paper. TRJFP has had a vast influence on the way that many people value
 food, steering the debate about how we feed ourselves towards contradictions in
 the system that are generally hidden from view. Yet the results are decisive:
 TRJFP has prevented thousands of tonnes of food being needlessly wasted, in
@@ -368,22 +371,32 @@ the process providing nutritional value to the lives of thousands of people.
 The fact that this has been possible is itself astonishing and raises the
 following questions: How has such continuous wastage of food
 become structural to the system? Why have these issues not been
-effectively tackled by food
-policies, of the type advocated by [@Lang2004]? TRJFP cannot answer
-all these
+effectively tackled by public policies?
+The present analysis of TRJFP cannot answer these
 questions, which relate to wider questions about how to ensure equity and
-health within a capitalist system [@Jackson2009a].
-Indeed, some question the economy's sustainability overall
-[@Ehrlich2013; @Martinez-Alier2010].
-What TRJFP can do, however, is empower people to take participative
-and community-led action to improve
-the food system. The ride-ranging benefits demonstrated
-in this paper are only the tip of the iceberg in terms of what is possible
-for bottom-up food movements such as TRJFP. However, the problems in the
-food system that TRJFP highlights and addresses are entrenched and 'systemic'
-[@Beddoe2009]. This means that more structural changes,
-of type set-out by [@Lang2004],  are required to reduce
-food wastage, maldistribution and poor nutrition to levels that are
-compatible with long-term economic, social and environmental sustainability.
+health within a capitalist system [@Jackson2009a]. 
+Indeed, the systematic and deliberate destruction of edible food that TRJFP
+highlights can be seen simply as one of many indicators of the fundamental
+unsustainability of the global economy [@Ehrlich2013; @Martinez-Alier2010].
+
+This paper has demonstrated that decentralised movements such as
+TRJFP can empower people to tackle the seemingly intractible issue of food wastage,
+on their own terms.
+This paper has estimated some of the quantifiable environmental and
+nutritional benefits of TJFP, but the wider societal benefits may be far
+greater. TRJFP provides a socially empowering alternative to food banks,
+a rapidly growing yet flawed solution to food mis-allocation
+[@Lambie-Mumford2013].^[Problems with the food bank model include:
+the limited supply of tokens regulated by restrictive criteria;
+its provision only of non-perishable food, which has low nutritious value;
+the fact that some products provided by food-banks require cooking facilities
+and skills which some recipients lack; and
+the reinforcement of social stigmas related to food inequality by separating
+food 'haves' from the 'have nots'.]
+Unlike food banks, TRJFP provides a model which encourages involvement by
+all members of the community in the solution to food waste. This makes sense
+because food mis-allocation is a structural societal problem rather than an
+ephemeral issue in need of an short-term technical fix.
 
 # References
+
