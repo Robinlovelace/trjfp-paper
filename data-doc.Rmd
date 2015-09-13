@@ -1,22 +1,77 @@
 ---
-title: "TRJFP Junkfood Project: data documentation"
+title: 'TRJFP Junkfood Project: data documentation'
 author: "Robin Lovelace"
 date: "August 12, 2015"
-output: html_document
+output: pdf_document
+bibliography: ~/Documents/R.bib
 ---
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+# Specifications for data storage
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+The appropriate way to store data is described by the term 'tidy data'
+[@tidy-data]. The rules of data stored in this way are:
 
-```{r}
-summary(cars)
-```
+1. Each variable forms a column.
 
-You can also embed plots, for example:
+2. Each observation forms a row.
 
-```{r, echo=FALSE}
-plot(cars)
-```
+3. Each type of observational unit forms a table.
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+In addition, the following features of data storage are desirable from the
+user's perspective, who wants to spend less time entering data and more
+time feeding people:
+
+1. Minimize the amount of information to be added.
+
+2. Autocompletion of cells corresponding to frequently added items.
+
+3. Easy upload of data to the on-line system.
+
+
+
+# TRJFP data
+
+The data collected by the TRJFP operates at several levels, so several
+tables are needed. These are
+
+1. Food items intercepted 
+2. Daily totals (e.g. meals served, finances)
+4. Interception points
+5. Cafes
+
+The first 2 tables are usually collected daily by each cafe. The 3rd table
+on 'interception points' (where food is picked-up from)
+is also collected by each cafe but is only updated
+when a new interception point is logged. The 5th table provides a global overview
+of all the cafes and is updated every time a new cafe is added.
+
+By far the largest table in the database will be 1,, which could store perhaps 50
+new items per day. Assuming (optimistically) that in the future cafes are dilligent in
+logging the data, we could log data from 100 cafes. That would be 5,000
+rows per day or around 1.8 million rows of data per year. This is not really
+Big Data, but it is worth thinking carefully about how it is stored.
+
+The variables associated with each table are described below.
+Critical to the useability of the data is that the datasets can be
+linked. Therefore linking variables connecting each table are described.
+
+# Data variables
+
+## Food items intercepted
+
+## Daily totals
+
+## Interception points
+
+## Cafes
+
+# Options
+
+There are 3 main options for storing these tables, from simple to complex.
+
+1. On Google Fusion Tables
+2. As regularly backed-up .csv files managed through an online server system like Shiny
+3. On a fully fledged database system, like postgres
+
+
+# References

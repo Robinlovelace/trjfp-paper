@@ -4,12 +4,12 @@ title: 'The Real Junk Food Project: assessing the environmental and nutritional 
 author: "Robin Lovelace and Adam Smith"
 date: "April 29, 2015"
 output:
+  word_document: default
   pdf_document:
     number_sections: yes
     toc: yes
   html_document:
     toc: yes
-  word_document: default
 cls: plos.cls
 bibliography: ~/Documents/trjfp.bib
 ---
@@ -40,19 +40,19 @@ The Real Junk Food Project (TRJFP) is a global movement
 aimed at highlighting and reducing
 the costs to people and the environment of
 the food industry. Conceptually, TRJFP is a simple and practical campaign to reduce food waste at all levels in the supply chain.
-As of ... 2015 TRJFP is also a legal entity, a Charitable Foundation
+As of .... 2015 TRJFP is also a legal Charitable Foundation
 based in Leeds, UK but with operations worldwide (Figure 1).
-The highest density of TRJFP cafes and enquiries surrounds its starting point
-in West Yorkshire (Figure 2). T
+The highest density of TRJFP cafés and enquiries surrounds its starting point
+in West Yorkshire (Figure 2). 
 
-!!! Figure of cafes worldwide
+!!! Figure of cafés worldwide
 
-!!! Figure of UK cafes
+!!! Figure of UK cafés
 
 
 TRJFP is also 'grass-roots' in that there is no centralised control
 structure, in direct contrast to the majority of multi-national food operations.
-TRJFP trades from dozens cafés, restaurants and other outlets
+TRJFP trades from dozens of cafés, restaurants and other outlets
 (some of which are mobile) without restrictions on where they. 
 There are two defining features of every outlet associated with TRJFP:
 
@@ -69,7 +69,7 @@ to contribute in other ways, e.g. by assisting in the kitchen.
 A slogan of TRJFP that encapsulates these dual criteria is
 "feed belies not bins". Thus TRJFP highlights not only the wastage inherent
 to modern food systems but also the social impacts of poor food distribution.
-TRJFP tackles both sides of food crisis: wasteful production and inequitable
+TRJFP tackles both sides of the current food crisis: wasteful production and inequitable
 distribution and consumption across society.
 
 The relationship between TRJFP 
@@ -91,11 +91,13 @@ The problem is access
 On the other, vast quantities of food are wasted [@Stuart2009].
 
 Food waste is ubiquitous at every stage of the supply chain.
-There is waste from excess use of chemicals
-on the fields [@Foley2005]; unharvested
-crops due to strict supermarket criteria appearance [@White2011];
-instability and hoarding due to
-short-term fluctuations in food commodity market [@Boussard2006];
+Globally around a third of edible food is wasted
+(1.3 billion tons per year) [@FAO2013].
+This is caused by a wide range of factors: excess use of chemicals
+on the fields [@Foley2005]; order cancellations and unharvested
+crops due to strict supermarket criteria appearance [@White2011;@Stuart2009];
+hoarding and speculation due to
+short-term fluctuations in food commodity markets [@Boussard2006];
 widespread accidental damage and perishing leading to waste during transit;
 and prolific household food waste [@Household2012].
 An excellent overview of the extent of wastage throughout this food supply chain,
@@ -300,8 +302,8 @@ per visit, far below the average price of a meal in the UK of around £5.
 ```
 
 This income is spent on the continuation of TRJFP and is spent on an
-outlet-by-outlet bases. Running costs in a typical PAYF cafe are the same as
-running costs in a conventional cafe, involving st
+outlet-by-outlet bases. Running costs in a typical PAYF café are the same as
+running costs in a conventional café, involving st
 
 
 
