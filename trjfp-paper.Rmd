@@ -4,12 +4,12 @@ title: 'The Real Junk Food Project: assessing the environmental and nutritional 
 author: "Robin Lovelace and Adam Smith"
 date: "April 29, 2015"
 output:
-  word_document: default
   pdf_document:
     number_sections: yes
     toc: yes
   html_document:
     toc: yes
+  word_document: default
 cls: plos.cls
 bibliography: ~/Documents/trjfp.bib
 ---
@@ -39,13 +39,14 @@ challenges to overcome
 The Real Junk Food Project (TRJFP) is a global movement 
 aimed at highlighting and reducing
 the costs to people and the environment of
-the food industry. Conceptually, TRJFP is a simple and practical campaign to reduce food waste at all levels in the supply chain.
-As of .... 2015 TRJFP is also a legal Charitable Foundation
+the food industry. Conceptually, TRJFP is a simple and practical campaign to
+prevent edible food from being wasted, at all levels in the supply chain.
+In January 2015 TRJFP was established as a Charitable Foundation
 based in Leeds, UK but with operations worldwide (Figure 1).
 The highest density of TRJFP cafés and enquiries surrounds its starting point
 in West Yorkshire (Figure 2). 
 
-!!! Figure of cafés worldwide
+!!! Figure of cafés worldwide (+ online map to be updated)
 
 !!! Figure of UK cafés
 
@@ -53,26 +54,26 @@ in West Yorkshire (Figure 2).
 TRJFP is also 'grass-roots' in that there is no centralised control
 structure, in direct contrast to the majority of multi-national food operations.
 TRJFP trades from dozens of cafés, restaurants and other outlets
-(some of which are mobile) without restrictions on where they. 
-There are two defining features of every outlet associated with TRJFP:
+(some of which are mobile) with little restriction on where or how they operate.
+However, all TRJFP outlets must adhere to the following principles:
 
 1. All food on offer at TRJFP outlets must have been 'intercepted' from the
 waste stream. Thus every TRJFP reduces 
 the amount of edible food that terminates in landfill.
 
-2. All TRJFP outlets provide food to customers under the principle of
-Pay As You Feel (PAYF). No hungry person will be turned away from TRJFP outlets
+2. All TRJFP outlets must provide food under the principle of
+Pay As You Feel (PAYF). No person will be turned away from TRJFP outlets
 due to lack of money to pay for food. There is no formal pricing structure.
 However, customers are encouraged to pay what they feel the food was worth or
-to contribute in other ways, e.g. by assisting in the kitchen.
+to contribute in other ways, through time, skills and energy
+e.g. by assisting in the kitchen.
 
 A slogan of TRJFP that encapsulates these dual criteria is
-"feed belies not bins". Thus TRJFP highlights not only the wastage inherent
-to modern food systems but also the social impacts of poor food distribution.
-TRJFP tackles both sides of the current food crisis: wasteful production and inequitable
+"feed belies not bins". The TRJFP thus demonstrates that the solution to environmental
+and social issues created by the food system are two sides of the same coin.
+TRJFP tackles both both aspects of the current food crisis:
+wasteful production and inequitable
 distribution and consumption across society.
-
-The relationship between TRJFP 
 
 ## Motivations
 
@@ -164,17 +165,15 @@ quantifiable impacts, we must begin with the data.
 TRJFP is a concept that empowers people from many walks of life to take action
 to address entrenched issues with the food system, *in their local areas*.
 
-# The growth of an idea
+# The growth of The Real Junkfood Project
 
-The first independent PAYF café operating under TRJFP banner opened in Armley, Leeds on December 16th 
+The first independent PAYF café operating under TRJFP banner opened in Armley,
+Leeds in December 16^th^ 
 2013.^[The first
-mention of "The Real Junk Food Project"
-in the media was in Good Food magazine, about a PAYF outlet set-up in
-Melbourne in early 2013: http://www.goodfood.com.au/good-food/food-news/from-the-rubbish-bin-to-the-restaurant-table-20130527-2n73n.html . It was was the experience of setting-up and running
-this operating that led the author (AS) to imagine how the idea could go
-global. Inspired by the response from this experience in Australia,
-first independent café was set-up shortly after AS returned home to his
-home-town in Leeds.]
+mention of this café in the mainstream
+media was in The Guardian on the 27^th^ March 2014: http://www.theguardian.com/lifeandstyle/video/2014/mar/27/cafe-food-past-sell-by-date-video
+This story viral and received tens of thousands of hits and hundreds of comments
+from across the world within hours of being published.]
 For the first 4 months this café
 opened for 2 hours per day, 2 days per week. Attention from the
 international media triggered rapid growth in number of volunteers, 
