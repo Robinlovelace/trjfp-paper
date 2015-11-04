@@ -90,8 +90,19 @@ library(geojsonio)
 # Pause; save
 # dir.create("outputs")
 # geojson_write(jfpsp, file = "outputs/ukpoints.geojson")
-# jfps <- readOGR("outputs/ukpoints.geojson", layer = "OGRGeoJSON")
-# jfps <- geojson_read("outputs/ukpoints.geojson")
+jfps <- readOGR("outputs/ukpoints.geojson", layer = "OGRGeoJSON")
+jfps <- geojson_read("outputs/ukpoints.geojson")
+
+cafs <- jfps[!is.na(jfps$Name),]
+cafdat <- cbind(cafs@data, coordinates(cafs))
+write.csv(cafs@data, "outputs/cafs.csv")
+geojsonio::geojson_write(cafs, file = "outputs/cafs.geojson")
+
+library(leaflet)
+
+head(jfps, 30)
+leaflet() %>% addTiles() %>% addCircles(data = jfps) %>%
+  addPopups(data = jfps[!is.na(jfps$Name),], popup = jfps$Name[!is.na(jfps$Name)])
 
 # cafs <- read_excel(paste0(ddir, "network opening dates.xlsx"))
 # names(cafs)[1] <- "Name"
