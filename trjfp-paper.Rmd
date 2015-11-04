@@ -11,7 +11,7 @@ output:
     toc: yes
   word_document: default
 cls: plos.cls
-bibliography: ~/Documents/trjfp.bib
+bibliography: trjfp.bib
 ---
 
 ```{r, echo=FALSE}
