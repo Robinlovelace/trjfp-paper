@@ -18,6 +18,7 @@ km <- km[!is.na(km$weight),]
 # devtools::install_github("marcschwartz/WriteXLS")
 # WriteXLS::WriteXLS(km, "/tmp/kirkgate.xlsx")
 # install.packages("xlsx")
+km$Location <- "Leeds Kirkgate Market"
 xlsx::write.xlsx(km, "/tmp/kirkgate.xlsx")
 
 # Morrisons
@@ -38,6 +39,7 @@ for(i in 2:8){
 
 m <- m[!is.na(m[2]),]
 m <- m[1:3]
+m$Location <- "Morrisons Leeds"
 xlsx::write.xlsx(m, "/tmp/morrisons.xlsx")
 
 # Find top n. items
