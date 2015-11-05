@@ -1,4 +1,28 @@
+# Re-format dates
+
+ints <- read.csv("data/TRJFP-all-intercepts.csv", stringsAsFactors = FALSE)
+ints <- ints[!ints$date == "",]
+
 # Re-format data from Armley
+schar <- grepl(pattern = "[a-z]", x = ints$date)
+sum(schar)
+plot(schar)
+dwrong <- ints$date[schar]
+head(dwrong)
+s2014 <- grepl(pattern = "Dec", dwrong)
+dwrong[s2014] <- paste0(dwrong[s2014], "-2014")
+dwrong[!s2014] <- paste0(dwrong[!s2014], "-2015")
+dright <- strptime(x = dwrong, format = "%d-%b-%Y")
+length(dright)
+summary(dright)
+length(ints$date[schar])
+dgood <- ints$date[!schar]
+dgood <- strptime(x = dgood, format = "%m/%d/%Y")
+summary(dgood)
+newdate <- c(dright, dgood)
+summary(newdate)
+ints$date <- newdate
+write.csv(ints, "data/TRJFP-all-intercepts.csv")
 
 library(readxl)
 library(tidyr)
