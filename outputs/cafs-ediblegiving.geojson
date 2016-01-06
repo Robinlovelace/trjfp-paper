@@ -1,8 +1,8 @@
 {
   "type": "FeatureCollection",
-	properties: {
-	source: "Taken from https://github.com/Robinlovelace/trjfp-paper/blob/master/outputs/cafs.geojson",
-	last_update: "20160106"
+	"properties": {
+	"source": "Taken from https://github.com/Robinlovelace/trjfp-paper/blob/master/outputs/cafs.geojson",
+	"last_update": "20160106"
 	},
   "features": [
     {
