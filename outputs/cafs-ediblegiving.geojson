@@ -1,0 +1,1491 @@
+{
+  "type": "FeatureCollection",
+	properties: {
+	source: "Taken from https://github.com/Robinlovelace/trjfp-paper/blob/master/outputs/cafs.geojson",
+	last_update: "20160106"
+	},
+  "features": [
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: "https://thebristolskipchen.wordpress.com/",
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Bristol (city of)",
+        "City": "Bristol",
+        "District": "Stokes Croft",
+        name: "Bristol Skipchen",
+        "Contacts": "Sam Joseph",
+        "NA.": null,
+        "NA.1": "Catie Jarman",
+        "NA.2": null,
+        "NA.3": "Marianna Musset",
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "Bristol Bristol (city of)  UK",
+        "lon": -2.58791,
+        "lat": 51.454513
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.58791,
+          51.454513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: "https://phoenixbristol.wordpress.com/",
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Bristol (city of)",
+        "City": "Bristol",
+        "District": null,
+        name: "Phoenix Skipchen",
+        "Contacts": "Helen Brown",
+        "NA.": null,
+        "NA.1": "Annie",
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "Bristol Bristol (city of)  UK",
+        "lon": -2.58791,
+        "lat": 51.454513
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.58791,
+          51.454513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: "http://therealjunkfoodproject.org/",
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Devon",
+        "City": "North Devon",
+        "District": null,
+        name: "TRJFP North Devon",
+        "Contacts": "Suzi Marsh",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "North Devon Devon  UK",
+        "lon": -4.078664,
+        "lat": 51.087157
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.078664,
+          51.087157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: "https://www.facebook.com/refusecic",
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Durham",
+        "City": "Durham",
+        "District": null,
+        name: "Re-F-use",
+        "Contacts": "Miriam Skinner",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "Durham Durham  UK",
+        "lon": -1.584852,
+        "lat": 54.77525
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.584852,
+          54.77525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: "http://savethedate.london/",
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Greater London",
+        "City": "Hackey",
+        "District": "Dalston",
+        name: "Save the Date Caf&eacute;",
+        "Contacts": "Ruth McCabe, Jame Smart",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "Hackey Greater London  UK",
+        "lon": -0.064644,
+        "lat": 51.551795
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0646437,
+          51.55179529999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: "http://realjunkfoodmanchester.co.uk/",
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Greater Manchester",
+        "City": null,
+        "District": "Manchester",
+        name: "TRJFP Manchester",
+        "Contacts": "Corin Bell",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": " Greater Manchester  UK",
+        "lon": -2.157838,
+        "lat": 53.457595
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1578377,
+          53.4575955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Greater Manchester",
+        "City": null,
+        "District": "Bolton",
+        name: "TRJFP Bolton",
+        "Contacts": "Alan Brown",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": " Greater Manchester  UK",
+        "lon": -2.157838,
+        "lat": 53.457595
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1578377,
+          53.4575955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Greater Manchester",
+        "City": null,
+        "District": "Wigan",
+        name: "Fur Clemt",
+        "Contacts": "Shirley Southworth",
+        "NA.": null,
+        "NA.1": "Ann Fairhurst",
+        "NA.2": null,
+        "NA.3": "Jan Hutchinson",
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": " Greater Manchester  UK",
+        "lon": -2.157838,
+        "lat": 53.457595
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1578377,
+          53.4575955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Greater Manchester",
+        "City": null,
+        "District": "Ardwick",
+        name: "The Well Good caf&eacute;",
+        "Contacts": "Nick Carr-Brown",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": " Greater Manchester  UK",
+        "lon": -2.157838,
+        "lat": 53.457595
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1578377,
+          53.4575955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Hampshire",
+        "City": "Southampton",
+        "District": null,
+        name: "TRJFP Southampton",
+        "Contacts": "Louiza Hamidi",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "Southampton Hampshire  UK",
+        "lon": -1.404351,
+        "lat": 50.9097
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4043509,
+          50.90970040000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Hampshire",
+        "City": "Portsmouth",
+        "District": "Fareham",
+        name: "TRJFP Portsmouth",
+        "Contacts": "Paula Lawes",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "Portsmouth Hampshire  UK",
+        "lon": -1.083333,
+        "lat": 50.816667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.083333,
+          50.816667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Kingston Upon Hull",
+        "City": "Hull",
+        "District": null,
+        name: "Gather",
+        "Contacts": "Debbi Lee",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "Hull Kingston Upon Hull  UK",
+        "lon": -0.34569,
+        "lat": 53.74417
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.34569,
+          53.74417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Merseyside",
+        "City": null,
+        "District": "Liverpool",
+        name: "TRJFP Liverpool",
+        "Contacts": "Gabriella Holmes",
+        "NA.": null,
+        "NA.1": "Natalie Hughes-Crean",
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": " Merseyside  UK",
+        "lon": -2.943664,
+        "lat": 53.397604
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9436643,
+          53.3976041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Northamptonshire",
+        "City": "Northampton",
+        "District": null,
+        name: "Elsie's Caf&eacute;",
+        "Contacts": "Shena Cooper",
+        "NA.": null,
+        "NA.1": "Simon Poon",
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "Northampton Northamptonshire  UK",
+        "lon": -0.902656,
+        "lat": 52.240477
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.902656,
+          52.240477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "North Yorkshire",
+        "City": "York",
+        "District": null,
+        name: "YourCafe",
+        "Contacts": "Margaret Hattham",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "York North Yorkshire  UK",
+        "lon": -1.087298,
+        "lat": 53.959965
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0872979,
+          53.95996510000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "North Yorkshire",
+        "City": "York",
+        "District": null,
+        name: "Real Junk Food York",
+        "Contacts": "Steph B",
+        "NA.": null,
+        "NA.1": "Anita Tasker",
+        "NA.2": null,
+        "NA.3": "Wayne",
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "York North Yorkshire  UK",
+        "lon": -1.087298,
+        "lat": 53.959965
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0872979,
+          53.95996510000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "North Yorkshire",
+        "City": "York",
+        "District": null,
+        name: "TIM Red Tower Project",
+        "Contacts": "Karen Boardman",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "York North Yorkshire  UK",
+        "lon": -1.087298,
+        "lat": 53.959965
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0872979,
+          53.95996510000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Oxfordshire",
+        "City": "Oxford",
+        "District": null,
+        name: "Abundance",
+        "Contacts": "Dot",
+        "NA.": null,
+        "NA.1": "Chesta Tiwari",
+        "NA.2": null,
+        "NA.3": "Joy Foster",
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "Oxford Oxfordshire  UK",
+        "lon": -1.257726,
+        "lat": 51.752021
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2577263,
+          51.7520209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "South Yorkshire",
+        "City": "Doncaster",
+        "District": null,
+        name: "TRJFP Doncaster",
+        "Contacts": "Fiona Cahill",
+        "NA.": null,
+        "NA.1": "Josephine Hirst",
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "Doncaster South Yorkshire  UK",
+        "lon": -1.128462,
+        "lat": 53.52282
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.128462,
+          53.52282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Sullfolk",
+        "City": "Ipswich",
+        "District": null,
+        name: "The Tea Pot Project",
+        "Contacts": "Mischa Pearson",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "Ipswich Sullfolk  UK",
+        "lon": 1.14822,
+        "lat": 52.056736
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.14822,
+          52.056736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Sussex",
+        "City": "East Sussex",
+        "District": "Brighton",
+        name: "TRJFP Brighton",
+        "Contacts": "Adam Buckingham",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "East Sussex Sussex  UK",
+        "lon": 0.27649,
+        "lat": 50.928598
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2764899,
+          50.9285982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "Tyne & Wear",
+        "City": "Newcastle Upon Tyne",
+        "District": "Newcastle",
+        name: "The Magic Hat Caf&eacute;",
+        "Contacts": "Duncan Fairbrother",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "Newcastle Upon Tyne Tyne & Wear  UK",
+        "lon": -1.61778,
+        "lat": 54.978252
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.61778,
+          54.978252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Midlands",
+        "City": "Birmingham",
+        "District": null,
+        name: "TRJFP Birmingham",
+        "Contacts": "Garethe",
+        "NA.": "Eileen",
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "Birmingham West Midlands  UK",
+        "lon": -1.890401,
+        "lat": 52.486243
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.890401,
+          52.486243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Bradford",
+        "District": "Shipley",
+        name: "Saltaire Canteen",
+        "Contacts": "Duncan Milwain",
+        "NA.": null,
+        "NA.1": "Angus",
+        "NA.2": "Stacey Farrar",
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Bradford West Yorkshire  UK",
+        "lon": -1.759398,
+        "lat": 53.795984
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.759398,
+          53.795984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Bradford",
+        "District": null,
+        name: "More BD 9",
+        "Contacts": "Lyndon",
+        "NA.": null,
+        "NA.1": "Joanne Archer",
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Bradford West Yorkshire  UK",
+        "lon": -1.759398,
+        "lat": 53.795984
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.759398,
+          53.795984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Leeds",
+        "District": "Armley",
+        name: "Armley Junk-tion",
+        "Contacts": "Adam Smith",
+        "NA.": null,
+        "NA.1": "Joshua Lawson",
+        "NA.2": null,
+        "NA.3": "Teresa Milligan",
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Leeds West Yorkshire  UK",
+        "lon": -1.549077,
+        "lat": 53.800755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5490774,
+          53.8007554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Leeds",
+        "District": "Beeston",
+        name: "Caf&eacute; me 'n' U",
+        "Contacts": "Yvonne Crowther",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Leeds West Yorkshire  UK",
+        "lon": -1.549077,
+        "lat": 53.800755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5490774,
+          53.8007554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Leeds",
+        "District": "Burley",
+        name: "Better Leeds Communities",
+        "Contacts": "Chris Verney",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Leeds West Yorkshire  UK",
+        "lon": -1.549077,
+        "lat": 53.800755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5490774,
+          53.8007554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Leeds",
+        "District": "Harehills",
+        name: "TLC",
+        "Contacts": "Anna Dyson",
+        "NA.": null,
+        "NA.1": "Rebecca Teiger",
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Leeds West Yorkshire  UK",
+        "lon": -1.549077,
+        "lat": 53.800755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5490774,
+          53.8007554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Leeds",
+        "District": "Headingley",
+        name: "Veggie Shack",
+        "Contacts": "Meadow Hudson",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Leeds West Yorkshire  UK",
+        "lon": -1.549077,
+        "lat": 53.800755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5490774,
+          53.8007554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Leeds",
+        "District": "Hunslet",
+        name: "Hunslet Club",
+        "Contacts": "Dennis Robbins",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Leeds West Yorkshire  UK",
+        "lon": -1.549077,
+        "lat": 53.800755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5490774,
+          53.8007554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Leeds",
+        "District": "Hyde Park",
+        name: "All Hallows Church",
+        "Contacts": "Emma Mawer",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Leeds West Yorkshire  UK",
+        "lon": -1.549077,
+        "lat": 53.800755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5490774,
+          53.8007554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Leeds",
+        "District": "Kirkstall",
+        name: "Cardigan Arms",
+        "Contacts": "Mickey",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Leeds West Yorkshire  UK",
+        "lon": -1.549077,
+        "lat": 53.800755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5490774,
+          53.8007554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Leeds",
+        "District": "Seacroft",
+        name: "Basement Gym",
+        "Contacts": "Peter Lee",
+        "NA.": null,
+        "NA.1": "Maureen Miranda",
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Leeds West Yorkshire  UK",
+        "lon": -1.549077,
+        "lat": 53.800755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5490774,
+          53.8007554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Leeds",
+        "District": null,
+        name: "Gate Pub",
+        "Contacts": "Howard Bradley",
+        "NA.": null,
+        "NA.1": null,
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Leeds West Yorkshire  UK",
+        "lon": -1.549077,
+        "lat": 53.800755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5490774,
+          53.8007554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Leeds",
+        "District": "Swinnow",
+        name: "Swinnow Community Centre",
+        "Contacts": "Helen Broadhead",
+        "NA.": null,
+        "NA.1": "Gemma Simpson",
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Leeds West Yorkshire  UK",
+        "lon": -1.549077,
+        "lat": 53.800755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5490774,
+          53.8007554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Leeds",
+        "District": "Woodhouse",
+        name: "TRJFP Headingley",
+        "Contacts": "Joe Salmon",
+        "NA.": null,
+        "NA.1": "Claire Hawker",
+        "NA.2": null,
+        "NA.3": null,
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Leeds West Yorkshire  UK",
+        "lon": -1.549077,
+        "lat": 53.800755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5490774,
+          53.8007554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116,
+      "properties": {
+      	activity_donation: true,
+      	activity_volunteering: true,
+      	activity_distribution: true,
+      	food_type_unopened: true,
+      	food_type_fresh: true,
+      	website: null,
+      	postal_address: null,
+      	opening_times: null,
+        "County": "West Yorkshire",
+        "City": "City of Leeds",
+        "District": "City Centre",
+        name: "City Junk-tion",
+        "Contacts": "Adam Smith",
+        "NA.": null,
+        "NA.1": "Joshua Lawson",
+        "NA.2": null,
+        "NA.3": "Teresa Milligan",
+        "NA.4": null,
+        "Email": null,
+        "Facebook": null,
+        "Twitter": null,
+        "Phone": null,
+        "Opening.hours": null,
+        "fullname": "City of Leeds West Yorkshire  UK",
+        "lon": -1.549077,
+        "lat": 53.800755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5490774,
+          53.8007554
+        ]
+      }
+    }
+  ]
+}
