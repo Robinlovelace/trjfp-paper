@@ -5,18 +5,21 @@ author: "Robin Lovelace and Adam Smith"
 date: "April 29, 2015"
 output:
   pdf_document:
+    fig_caption: yes
     number_sections: yes
     toc: yes
   html_document:
     toc: yes
   word_document: default
 cls: plos.cls
-bibliography: ~/Documents/trjfp.bib
+bibliography: trjfp.bib
 ---
 
-```{r, echo=FALSE}
+```{r, include=FALSE}
 # Todo
 # 
+pkgs <- c("png", "grid")
+lapply(pkgs, library, character.only = TRUE)
 ```
 
 
@@ -37,23 +40,36 @@ challenges to overcome
 ## What is The Real Junk Food Project?
 
 The Real Junk Food Project (TRJFP) is a global movement 
-aimed at highlighting and reducing
-the costs to people and the environment of
-the food industry. Conceptually, TRJFP is a simple and practical campaign to
-prevent edible food from being wasted, at all levels in the supply chain.
+which reduces food wastage by intercepting edible food destined for landfill.
+In the process, it aims to provide affordable and nutritious meals to people in need,
+highlight structural problems with the food industry and foster local communities based
+on sharing skills, resources and space.  
+This paper paper sets out to quantify, for the first time, the
+environmental and nutritional benefits of this rapidly growing organisation.
+
+Conceptually, TRJFP is a simple and practical campaign to
+prevent edible food from being wasted.
 In January 2015 TRJFP was established as a Charitable Foundation
 based in Leeds, UK but with operations worldwide (Figure 1).
 The highest density of TRJFP cafés and enquiries surrounds its starting point
 in West Yorkshire (Figure 2). 
 
-!!! Figure of cafés worldwide (+ online map to be updated)
+```{r, fig.cap="Distribution of TRJFP cafes and enquiries worldwide. See [therealjunkfoodproject.org/map](http://therealjunkfoodproject.org/map) for an up-to-date map.", echo=FALSE}
+library(tmap)
+data("World")
+qtm(World)
+```
 
-!!! Figure of UK cafés
 
+```{r, fig.cap="Location of TRJFP cafes and formal enquiries in the UK.", echo=FALSE}
+grid.raster(readPNG("figures/uk-cafs.png"))
+```
 
-TRJFP is also 'grass-roots' in that there is no centralised control
-structure, in direct contrast to the majority of multi-national food operations.
-TRJFP trades from dozens of cafés, restaurants and other outlets
+TRJFP is a 'grass-roots' movement in that is organised by a network of volunteers
+rather than through a centralised and top-down control
+structure. This is in contrast to multi-national food operations, which organise around
+a hierarchical structure and adhere to uniform branding and menus.
+Like multi-national food corporations TRJFP trades from dozens of cafés, restaurants and other outlets
 (some of which are mobile) with little restriction on where or how they operate.
 However, all TRJFP outlets must adhere to the following principles:
 
@@ -315,7 +331,7 @@ of food wholesalers, consider the case of X, a Fruit and Vegetable wholesale
 provider based in West Yorkshire.^[We
 do not name the wholesalers due to the commercial sensitivity of the issue.]
 X was spending £80,000 per month on disposal of waste food, which consisted
-primarily in transport logistics and the UK's Landfill Tax.[See https://www.gov.uk/business-tax/landfill-tax for further details.]
+primarily in transport logistics and the UK's Landfill Tax.^[See https://www.gov.uk/business-tax/landfill-tax for further details.]
 Having heard about TRJFP, X started delivering food deemed
 no longer fit for sale but which was still fit for human consumption
 to a TRJFP outlet. TRJFP members have also started collecting food from X.

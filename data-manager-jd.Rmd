@@ -1,0 +1,31 @@
+---
+title: 'Data Manager for TRJFP: Job Description'
+output: word_document
+---
+
+
+## Key roles
+
+- Manage the collection of data across the cafes. This entails analysing the database to ensure that the data collected is harmonised across different outlets.
+- Administer user accounts for uploading data to the database
+- Train cafe managers in the use of the data input system to ensure it is used correctly
+- Ensure that newly affiliated TRJFP outlets are up-to-speed with the data collection system
+
+## Additional roles
+
+- Liase with the CDRC to ensure the design of the data input interface is suited to users' needs
+- Propose and initiate updates to the database system, e.g. to collect additional data variables
+- Assist with the analysis and visualisation of the data to support TRJFP aims
+
+## Essential
+
+- Database management skills
+- System administration experience, including maintaining an up-to-date list of usernames and passwords for outlets
+- Ability to work with people from a range of backgrounds (technical and non-technical) to ensure understanding and correct use of the database
+
+## Desirable
+
+- Data analysis skills
+- Web development skills, including on-line interactive visualisation
+- Working knowledge of TRJFP
+

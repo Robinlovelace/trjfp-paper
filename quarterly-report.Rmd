@@ -1,0 +1,69 @@
+---
+title: "Quarterly report"
+author: "The Real Junk Food Project"
+date: "29 June 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+```
+
+
+This report shows what is possible in terms of automated reported per cafe per quarter (or per week, month or year) with the shift to the continuously collection database.
+
+The first stage is to read-in the data using a secure connection to the database:
+
+```{r}
+source("R/sql-read.R")
+```
+
+This loads all the datasets we'll be using, including cafes, sources, intercepts and donations. 
+
+Let's see some summary statistics. For all intercepts in this (sample) datasets, the total weight intercepted was:
+
+```{r}
+sum(intercepts$Weight, na.rm = T)
+```
+
+We can put this in plain English for the report, using the following input:
+
+    The total weight intercepted was `r sum(intercepts$Weight, na.rm = T) / 1000000` tonnes.
+
+This results in the following output that the user will see:
+
+The total weight intercepted was `r round(sum(intercepts$Weight, na.rm = T) / 1000000, 2)` tonnes.
+
+We can see the breakdown by food type, for the most frequently intercepted products for example:
+
+```{r}
+intercepts_g = group_by(intercepts, Product)
+freq_table = intercepts_g %>% summarise(Frequency = n())
+top_products = freq_table %>% arrange(desc(Frequency)) %>% top_n(5)
+top_products
+```
+
+Furthermore, we can plot this output like this:
+
+```{r}
+ggplot(top_products) + geom_bar(aes(Product, Frequency), stat = "identity")
+```
+
+Or like this:
+
+```{r}
+ggplot(top_products) + geom_bar(aes(1, fill = Product, Frequency), stat = "identity")
+```
+
+We can do the same thing for the source of the intercept:
+
+```{r}
+intercepts_g = group_by(intercepts, Company)
+freq_table = intercepts_g %>% summarise(Frequency = n())
+top_companies = freq_table %>% arrange(desc(Frequency)) %>% top_n(5)
+top_companies
+```
+
+```{r}
+ggplot(top_companies) + geom_bar(aes(Company, Frequency), stat = "identity")
+```
