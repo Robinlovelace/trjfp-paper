@@ -32,33 +32,38 @@ We can put this in plain English for the report, using the following input:
 
 This results in the following output that the user will see:
 
-The total weight intercepted was `r sum(intercepts$Weight, na.rm = T) / 1000000` tonnes.
+The total weight intercepted was `r round(sum(intercepts$Weight, na.rm = T) / 1000000, 2)` tonnes.
 
-We can see the breakdown by food type, between bread and cheese, for example:
+We can see the breakdown by food type, for the most frequently intercepted products for example:
 
 ```{r}
-sel_bread = grep(pattern = "bread", intercepts$ProductId)
-sum(intercepts$Weight[grep(pattern = )])
+intercepts_g = group_by(intercepts, Product)
+freq_table = intercepts_g %>% summarise(Frequency = n())
+top_products = freq_table %>% arrange(desc(Frequency)) %>% top_n(5)
+top_products
 ```
 
+Furthermore, we can plot this output like this:
 
-
-## Overall report
-
-Overall, the n
-
-## Monthly report
-
-```{r cars}
-summary(cars)
+```{r}
+ggplot(top_products) + geom_bar(aes(Product, Frequency), stat = "identity")
 ```
 
-## Including Plots
+Or like this:
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r}
+ggplot(top_products) + geom_bar(aes(1, fill = Product, Frequency), stat = "identity")
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+We can do the same thing for the source of the intercept:
+
+```{r}
+intercepts_g = group_by(intercepts, Company)
+freq_table = intercepts_g %>% summarise(Frequency = n())
+top_companies = freq_table %>% arrange(desc(Frequency)) %>% top_n(5)
+top_companies
+```
+
+```{r}
+ggplot(top_companies) + geom_bar(aes(Company, Frequency), stat = "identity")
+```

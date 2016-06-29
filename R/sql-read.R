@@ -8,15 +8,18 @@ channel <- odbcDriverConnect('driver={SQL Server};server=SEEDSQL1;database=RealJ
 # which databases are we interested in?
 # sqlTables(channel, tableType = "TABLE")
 
-intercepts <- sqlQuery(channel, "SELECT * FROM [RealJunkFood].[dbo].[tblIntercept]")
-sources = sqlQuery(channel = channel, "SELECT * FROM [RealJunkFood].[dbo].[tblSource]")
-donations = sqlQuery(channel = channel, "SELECT * FROM [RealJunkFood].[dbo].[tblDonation]")
-cafes = sqlQuery(channel = channel, "SELECT * FROM [RealJunkFood].[dbo].[tlkpCafe]")
+intercepts <- sqlQuery(channel, "SELECT * FROM tblIntercept")
+sources = sqlQuery(channel = channel, "SELECT * FROM tlkpSource")
+donations = sqlQuery(channel = channel, "SELECT * FROM tblDonation")
+cafes = sqlQuery(channel = channel, "SELECT * FROM tlkpCafe")
+product = sqlQuery(channel = channel, "SELECT * FROM tlkpProduct")
 
 # names(intercepts)
 # unique(intercepts$CafeId)
 
 intercepts = left_join(intercepts, sources, by = "SourceId")
+intercepts = left_join(intercepts, product)
+
 
 
 # Analysis
