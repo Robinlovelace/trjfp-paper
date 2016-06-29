@@ -1,5 +1,6 @@
 library(RODBC)
 library(dplyr)
+library(lubridate)
 # library(ggplot2)
 # Note: you must connect to 'uni1' via pulse from the bottom panel in windows to access this database
 # channel <- odbcDriverConnect('driver={SQL Server};server=SEEDSQL1;database=RealJunkFoodProject;trusted_connection=true')
@@ -17,10 +18,14 @@ product = sqlQuery(channel = channel, "SELECT * FROM tlkpProduct")
 # names(intercepts)
 # unique(intercepts$CafeId)
 
+# Pre-processing
+intercepts$Quarter = floor_date(intercepts$DateIntercepted, "quarter")
+intercepts$Month = floor_date(intercepts$DateIntercepted, "month")
+intercepts$Week = floor_date(intercepts$DateIntercepted, "week")
 intercepts = left_join(intercepts, sources, by = "SourceId")
 intercepts = left_join(intercepts, product)
 
-
+# class(intercepts$DateIntercepted)
 
 # Analysis
 # (main_sources = tail(sort(table(intercepts$Source)), 10))

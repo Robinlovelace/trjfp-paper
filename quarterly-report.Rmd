@@ -24,7 +24,7 @@ This loads all the datasets we'll be using, including cafes, sources, intercepts
 Let's see some summary statistics. For all intercepts in this (sample) datasets, the total weight intercepted was:
 
 ```{r}
-sum(intercepts$Weight, na.rm = T)
+sum(intercepts$weight, na.rm = T)
 ```
 
 We can put this in plain English for the report, using the following input:
@@ -33,7 +33,9 @@ We can put this in plain English for the report, using the following input:
 
 This results in the following output that the user will see:
 
-The total weight intercepted was `r round(sum(intercepts$Weight, na.rm = T) / 1000000, 2)` tonnes.
+The total weight intercepted was `r round(sum(intercepts$weight, na.rm = T) / 1000000, 2)` tonnes.
+
+## By product
 
 We can see the breakdown by food type, for the most frequently intercepted products for example:
 
@@ -56,6 +58,8 @@ Or like this:
 ggplot(top_products) + geom_bar(aes(1, fill = Product, Frequency), stat = "identity")
 ```
 
+## By source
+
 We can do the same thing for the source of the intercept:
 
 ```{r}
@@ -67,4 +71,48 @@ top_companies
 
 ```{r}
 ggplot(top_companies) + geom_bar(aes(Company, Frequency), stat = "identity")
+```
+
+## By time
+
+By quarter:
+
+```{r}
+intercepts_g = group_by(intercepts, Quarter)
+freq_table = intercepts_g %>% summarise(Frequency = n())
+ggplot(freq_table, aes(Quarter, Frequency)) + geom_bar(stat = "identity")
+```
+
+By month:
+
+```{r}
+intercepts_g = group_by(intercepts, Month)
+freq_table = intercepts_g %>% summarise(Frequency = n())
+ggplot(freq_table, aes(Month, Frequency)) + geom_bar(stat = "identity")
+```
+
+By week:
+
+```{r}
+intercepts_g = group_by(intercepts, Week)
+freq_table = intercepts_g %>% summarise(Frequency = n())
+ggplot(freq_table, aes(Week, Frequency)) + geom_bar(stat = "identity")
+```
+
+By day:
+
+```{r}
+intercepts_g = group_by(intercepts, DateIntercepted)
+freq_table = intercepts_g %>% summarise(Frequency = n())
+ggplot(freq_table, aes(DateIntercepted, Frequency)) + geom_bar(stat = "identity")
+```
+
+## Bonus: by food type and week
+
+
+```{r}
+intercepts$Broad_product = "Other"
+sel_product = intercepts$Product %in% top_products$Product
+intercepts$Broad_product[sel_product] = intercepts$Product[sel_product]
+ggplot(intercepts) + geom_bar(aes(Week, fill = Broad_product))
 ```
