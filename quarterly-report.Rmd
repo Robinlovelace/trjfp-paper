@@ -1,0 +1,64 @@
+---
+title: "Quarterly report"
+author: "The Real Junk Food Project"
+date: "29 June 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+```
+
+
+This report shows what is possible in terms of automated reported per cafe per quarter (or per week, month or year) with the shift to the continuously collection database.
+
+The first stage is to read-in the data using a secure connection to the database:
+
+```{r}
+source("R/sql-read.R")
+```
+
+This loads all the datasets we'll be using, including cafes, sources, intercepts and donations. 
+
+Let's see some summary statistics. For all intercepts in this (sample) datasets, the total weight intercepted was:
+
+```{r}
+sum(intercepts$Weight, na.rm = T)
+```
+
+We can put this in plain English for the report, using the following input:
+
+    The total weight intercepted was `r sum(intercepts$Weight, na.rm = T) / 1000000` tonnes.
+
+This results in the following output that the user will see:
+
+The total weight intercepted was `r sum(intercepts$Weight, na.rm = T) / 1000000` tonnes.
+
+We can see the breakdown by food type, between bread and cheese, for example:
+
+```{r}
+sel_bread = grep(pattern = "bread", intercepts$ProductId)
+sum(intercepts$Weight[grep(pattern = )])
+```
+
+
+
+## Overall report
+
+Overall, the n
+
+## Monthly report
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
