@@ -2,7 +2,7 @@ library(RODBC)
 library(dplyr)
 # library(ggplot2)
 # Note: you must connect to 'uni1' via pulse from the bottom panel in windows to access this database
-# channel <- odbcDriverConnect('driver={SQL Server};server=SEEDSQL1;database=RealJunkFood;trusted_connection=true')
+# channel <- odbcDriverConnect('driver={SQL Server};server=SEEDSQL1;database=RealJunkFoodProject;trusted_connection=true')
 channel <- odbcDriverConnect('driver={SQL Server};server=SEEDSQL1;database=RealJunkFoodProject_080616;trusted_connection=true')
 
 # which databases are we interested in?
